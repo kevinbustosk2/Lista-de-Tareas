@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.samsung.com/is/image/samsung/assets/mx/p6_gro2/p6_initial_mktpd/tvs/super-big-tv/2019_superbig_00_see_the_bigger_picture_PC.jpg?$1440_N_JPG$);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/551/944/930/simple-wallpaper-preview.jpg);
     background-size: 1200px 600px;
     background-repeat: no-repeat;
 }
@@ -22,11 +22,32 @@ li {
     list-style-type: none;
     font-family:verdana;
     font: size 20px;px;
-    color:rgb(0, 217, 255);
-    text-shadow: 1px  0px 0px black,
-               0px  1px 0px black,
-              -1px  0px 0px black,
-               0px -1px 0px black;
+    color:rgb(0, 134, 7);
+               
     
 }
 
+ul {
+            list-style-type: none;
+            padding: 2;
+            text-align: center;
+        }
+        li {
+            display: inline-grid;
+            padding: 5px 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px; 
+            background-color: #f9f9f9;
+        }
+        .completed {
+            text-decoration: line-through;
+        }
+        .delete-button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
